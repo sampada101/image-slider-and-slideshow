@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Slider</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="carousel-container">
+
+  		<div class="carousel-image-wrapper">
+  			<img src="https://wallpaperaccess.com/full/266770.jpg" class="image center">
+  			<img src="https://blog.mystart.com/wp-content/uploads/shutterstock_224423782-1-e1527774744419.jpg" class="image center">
+  			<img src="https://images8.alphacoders.com/380/thumb-1920-380977.jpg" class="image center">
+  			<img src="https://wallpapercave.com/wp/sYqvBTj.jpg" class="image center">
+  		</div>
+
+		<a class="prev" onclick="previousSlide()"><</a>
+		<a class="next" onclick="nextSlide()">></a>
+
+	</div>
+
+	<div id="DotsWrapper">
+	</div>
+
+	<div class="slideshowOrNot">
+		<button onclick="SlideshowTrue()" class="button-animation">Turn On Slideshow</button>
+		<button onclick="SlideshowFalse()" class="button-animation">Turn Off Slideshow</button>
+		<input type="hidden" name="annimation" id="annimation">
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
