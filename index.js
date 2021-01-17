@@ -22,7 +22,7 @@ function nextSlide() {
 function SlideshowTrue(){
   if (!document.getElementById("annimation").checked){
     document.getElementById("annimation").checked = true;
-    showSlides(slideNo+1);
+    showSlides();
   }
 }
 
